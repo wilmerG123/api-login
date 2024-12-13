@@ -1,8 +1,10 @@
 package com.project.utils;
 
+import com.project.models.entitys.Rol;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import com.project.models.enums.RolEnum;
 
 import com.project.service.RolServiceImpl;
 
@@ -20,11 +22,14 @@ public class CreateRoles implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
+
 		/*
-		 * Rol rolAdmin = new Rol(RolEnum.ROLE_ADMIN); Rol rolUser = new
-		 * Rol(RolEnum.ROLE_USER); rolServiceImpl.create(rolAdmin);
-		 * rolServiceImpl.create(rolUser);
+		 Rol rolAdmin = new Rol(RolEnum.ROLE_ADMIN);
+		  Rol rolUser = new Rol(RolEnum.ROLE_USER); rolServiceImpl.create(rolAdmin);
+		  rolServiceImpl.create(rolUser);
 		 */
+
+
 
 	}
 }
