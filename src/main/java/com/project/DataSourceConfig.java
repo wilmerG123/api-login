@@ -9,8 +9,8 @@ import javax.sql.DataSource;
 
 @Configuration
 public class DataSourceConfig {
-/*
- @Bean
+
+    @Bean
     public DataSource dataSource(
             @Value("${MYSQLHOST}") String mysqlHost,
             @Value("${MYSQLPORT}") String mysqlPort,
@@ -28,6 +28,6 @@ public class DataSourceConfig {
                 .password(mysqlPassword)
                 .build();
     }
- */
+
 
 }
